@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PAYMENT DIXEY</title>
+  <title>PAYMENT KAII</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
     * { box-sizing: border-box; }
@@ -212,15 +212,15 @@
   <div class="wrapper">
     <!-- HALAMAN UTAMA -->
     <div id="homePage">
-      <img src="https://files.catbox.moe/gwth2t.jpg" alt="Logo" class="thumbnail" />
-      <h1>Selamat Datang di DIXEY</h1>
+      <img src="https://files.catbox.moe/qm2yoj.jpg" alt="Logo" class="thumbnail" />
+      <h1>Selamat Datang di List Payment Kaii</h1>
       <button class="button" onclick="goToPayment()">PAYMENT</button>
     </div>
 
     <!-- HALAMAN PAYMENT -->
     <div id="paymentPage" class="hidden">
-      <img src="https://files.catbox.moe/gwth2t.jpg" alt="Logo" class="thumbnail" />
-      <h1>PAYMENT DIXEY</h1>
+      <img src="https://files.catbox.moe/qm2yoj.jpg" alt="Logo" class="thumbnail" />
+      <h1>PAYMENT KAII</h1>
       <button class="button" onclick="togglePaymentInfo()">ALL PAYMENT</button>
 
       <div class="payment-info" id="paymentInfo">
@@ -228,14 +228,14 @@
           <div class="qris-box">
             <div class="qris-container-wrapper">
               <div class="qris-container" id="qrisContainer">
-                <img src="https://files.catbox.moe/rrna8q.png" alt="QRIS" class="qris-img" id="qrisImage" />
+                <img src="qris.jpg" alt="QRIS" class="qris-img" id="qrisImage" />
               </div>
             </div>
             <button class="qr-download-btn" id="qrDownloadBtn" onclick="downloadQR()">Download QR</button>
-            <small class="qr-hint">📌 Tekan lama gambar jika ingin simpan ke galeri</small>
+            <small class="qr-hint">📌 Tekan download qr jika ingin simpan ke galeri</small>
           </div>
 
-          <div class="dana-box">DANA: <span id="danaNumber">0895428396217</span></div>
+          <div class="dana-box">DANA: <span id="danaNumber">087858344162</span></div>
           <button class="copy-button" onclick="copyDana()">Salin Nomor</button>
 
           <div id="copiedMessage" style="display:none;" class="copied-msg">
@@ -244,10 +244,6 @@
           </div>
         </div>
       </div>
-
-      <button class="back-btn" onclick="backToHome()">⬅ BACK</button>
-    </div>
-  </div>
 
   <script>
     const qris = document.getElementById('qrisContainer');
