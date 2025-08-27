@@ -16,10 +16,16 @@
   
   <script>
   function copyDana() {
-    var text = getElementById("dana").innerText;
-    navigator.clipboard.writeText(text);
-    alert("Nomor Dana Berhasil Di Salin !" + text);
-  }
+  var text = document.getElementById("dana").innerText;
+  navigator.clipboard.writeText(text);
+  alert("Dana berhasil dicopy: " + text);
+}
+
+function copyGopay() {
+  var text = document.getElementById("gopay").innerText;
+  navigator.clipboard.writeText(text);
+  alert("Gopay berhasil dicopy: " + text);
+}
   </script>
 </body>
 </html>
